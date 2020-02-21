@@ -67,7 +67,7 @@ $(function() {
 
 
     //test that ensures the menu changes visibility when the menu icon is clicked
-    it('menu display when clicked', function() {
+    it('menu display and hide when clicked', function() {
 
       $('.menu-icon-link').click();
       expect($('body').hasClass('menu-hidden')).toBe(false);
