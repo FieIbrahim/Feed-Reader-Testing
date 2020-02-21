@@ -71,14 +71,12 @@ $(function() {
 
       $('.menu-icon-link').click();
       expect($('body').hasClass('menu-hidden')).toBe(false);
-    });
 
-    it('menu hide when clicked', function() {
       $('.menu-icon-link').click();
       expect($('body').hasClass('menu-hidden')).toBe(true);
-
-
     });
+
+
   });
 
 
